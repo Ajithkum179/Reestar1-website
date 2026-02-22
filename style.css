@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  font-family: "Young Serif", serif;
+font-size: 10px;
+box-sizing: border-box;
+}
+.container{
+    padding: 5px;
+    text-align: center; 
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.section-one,.section-two,.section-three,.section-four{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    border: solid black 2px;
+}
+.section-one__title,.section-two__title,.section-three__title,.section-four__title{
+    margin-top: 10px;
+
+}
+.section-five__title{
+    font-size: 60px;
+}
+
+
+.section-one{
+    display: inline-block;
+    height: 300px;
+    width: 280px;
+    padding: 5px;
+    vertical-align: top;
+
+}
+.section-two{  
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    vertical-align: top;
+}
+.section-three{ 
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    vertical-align: top;
+    
+    
+}
+.section-four{ 
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding:5px;
+vertical-align: top;
+}   
+.section-sevan{
+     background-color: black;
+     color: white;
+padding:10px;
+margin: 10px;
+text-align: center; 
+
+}   
+.eight{
+    background-color: yellow;
+    color: black;
+    border: solid yellow 2px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.table{
+    display: inline-block;
+     text-align: center;
+}   
